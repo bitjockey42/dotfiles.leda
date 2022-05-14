@@ -40,10 +40,10 @@ urxvt*shading: 15
 *.color15: #ffffff
 
 !! URxvt Appearance
-URxvt.font: xft:VictorMono Nerd Font:style=Regular:pixelsize=14
-URxvt.boldFont: xft:VictorMono Nerd Font:style=Regular:pixelsize=14
-URxvt.italicFont: xft:VictorMono Nerd Font:style=Italic:pixelsize=14
-URxvt.boldItalicfont: xft:VictorMono Nerd Font:style=Bold Italic:pixelsize=14
+URxvt.font: xft:Victor Mono:style=Regular:pixelsize=16
+URxvt.boldFont: xft:Victor Mono:style=Regular:pixelsize=16
+URxvt.italicFont: xft:Victor Mono:style=Italic:pixelsize=16
+URxvt.boldItalicfont: xft:Victor Mono:style=Bold Italic:pixelsize=16
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -66,6 +66,7 @@ URxvt.keysym.Control-Right: \033[1;5C
 URxvt.keysym.Control-Left: \033[1;5D
 
 !! Copy Paste & Other Extensions
+URxvt.perl-lib: /usr/lib/urxvt/perl/
 URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
